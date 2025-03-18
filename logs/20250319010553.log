@@ -1,0 +1,56 @@
+2025-03-19 01:06:06.198 | INFO     | app.agent.base:run:141 - 执行步骤 1/20 🔄
+2025-03-19 01:06:07.763 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 
+2025-03-19 01:06:07.764 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了1个工具来使用
+2025-03-19 01:06:07.765 | INFO     | app.agent.toolcall:think:58 - 🧰 正在准备的工具: ['qqmusic_control']
+2025-03-19 01:06:07.765 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 激活工具: 'qqmusic_control'...
+2025-03-19 01:06:07.767 | INFO     | app.tool.qqmusic_control:_ensure_qqmusic_running:144 - QQ音乐未运行，尝试启动QQ音乐应用程序 🚀
+2025-03-19 01:06:07.770 | INFO     | app.tool.qqmusic_control:_open_qqmusic:187 - 已启动QQ音乐应用程序 🚀
+2025-03-19 01:06:27.987 | ERROR    | app.tool.qqmusic_control:execute:113 - QQ音乐控制出错: QQ音乐启动超时 ⏱️ ❌
+2025-03-19 01:06:27.988 | INFO     | app.agent.toolcall:act:113 - 🎯 工具'qqmusic_control'完成了任务！结果: 执行命令`qqmusic_control`的观察输出:
+{'success': False, 'error': 'QQ音乐启动超时 ⏱️'}
+2025-03-19 01:06:27.989 | INFO     | app.agent.base:run:141 - 执行步骤 2/20 🔄
+2025-03-19 01:06:32.454 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 看起来尝试切换到下一首歌曲时，QQ音乐没有及时响应，可能是因为启动或切换歌曲超时。您可以检查QQ音乐是否已经打开并且运行正常。如果问题依旧存在，可能需要重启QQ音乐客户端再试一次。
+2025-03-19 01:06:32.455 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了0个工具来使用
+2025-03-19 01:06:32.456 | INFO     | app.agent.base:run:141 - 执行步骤 3/20 🔄
+2025-03-19 01:06:34.609 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 
+2025-03-19 01:06:34.609 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了1个工具来使用
+2025-03-19 01:06:34.610 | INFO     | app.agent.toolcall:think:58 - 🧰 正在准备的工具: ['qqmusic_control']
+2025-03-19 01:06:34.611 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 激活工具: 'qqmusic_control'...
+2025-03-19 01:06:34.613 | INFO     | app.tool.qqmusic_control:_open_qqmusic:187 - 已启动QQ音乐应用程序 🚀
+2025-03-19 01:06:44.746 | INFO     | app.agent.toolcall:act:113 - 🎯 工具'qqmusic_control'完成了任务！结果: 执行命令`qqmusic_control`的观察输出:
+{'success': False, 'message': 'QQ音乐启动超时 ⏱️'}
+2025-03-19 01:06:44.748 | INFO     | app.agent.base:run:141 - 执行步骤 4/20 🔄
+2025-03-19 01:06:50.156 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 看来尝试打开QQ音乐时遇到了启动超时的问题。您可以检查以下几点：
+
+1. 确保QQ音乐已正确安装在您的计算机上。
+2. 检查是否有其他程序占用相关资源，导致QQ音乐无法正常启动。
+3. 尝试手动启动QQ音乐，确认软件是否能正常运行。
+
+如果以上步骤均无误，但问题仍然存在，可能需要重新安装QQ音乐客户端以确保其正常工作。您需要我协助完成任何后续操作吗？
+2025-03-19 01:06:50.158 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了0个工具来使用
+2025-03-19 01:06:50.158 | INFO     | app.agent.base:run:141 - 执行步骤 1/20 🔄
+2025-03-19 01:06:52.238 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 
+2025-03-19 01:06:52.239 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了1个工具来使用
+2025-03-19 01:06:52.240 | INFO     | app.agent.toolcall:think:58 - 🧰 正在准备的工具: ['qqmusic_control']
+2025-03-19 01:06:52.240 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 激活工具: 'qqmusic_control'...
+2025-03-19 01:06:52.242 | INFO     | app.tool.qqmusic_control:_ensure_qqmusic_running:144 - QQ音乐未运行，尝试启动QQ音乐应用程序 🚀
+2025-03-19 01:06:52.244 | INFO     | app.tool.qqmusic_control:_open_qqmusic:187 - 已启动QQ音乐应用程序 🚀
+2025-03-19 01:07:12.535 | ERROR    | app.tool.qqmusic_control:execute:113 - QQ音乐控制出错: QQ音乐启动超时 ⏱️ ❌
+2025-03-19 01:07:12.538 | INFO     | app.agent.toolcall:act:113 - 🎯 工具'qqmusic_control'完成了任务！结果: 执行命令`qqmusic_control`的观察输出:
+{'success': False, 'error': 'QQ音乐启动超时 ⏱️'}
+2025-03-19 01:07:12.538 | INFO     | app.agent.base:run:141 - 执行步骤 2/20 🔄
+2025-03-19 01:07:18.145 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 似乎在尝试关闭QQ音乐时也遇到了启动超时的问题。这表明QQ音乐可能当前并未运行，或者存在其他导致无法正常交互的技术问题。
+
+如果需要进一步操作，请先确认QQ音乐的状态：
+- 如果QQ音乐正在运行但无响应，可以尝试手动结束进程。
+- 如果QQ音乐未运行，则无需执行关闭命令。
+
+您是否需要我帮助您检查QQ音乐的进程状态或提供其他帮助？
+2025-03-19 01:07:18.147 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了0个工具来使用
+2025-03-19 01:07:18.149 | INFO     | app.agent.base:run:141 - 执行步骤 3/20 🔄
+2025-03-19 01:07:20.883 | INFO     | app.agent.toolcall:think:53 - ✨ Manus的思考: 
+2025-03-19 01:07:20.883 | INFO     | app.agent.toolcall:think:54 - 🛠️ Manus选择了1个工具来使用
+2025-03-19 01:07:20.883 | INFO     | app.agent.toolcall:think:58 - 🧰 正在准备的工具: ['qqmusic_control']
+2025-03-19 01:07:20.884 | INFO     | app.agent.toolcall:execute_tool:140 - 🔧 激活工具: 'qqmusic_control'...
+2025-03-19 01:07:20.889 | INFO     | app.tool.qqmusic_control:_ensure_qqmusic_running:144 - QQ音乐未运行，尝试启动QQ音乐应用程序 🚀
+2025-03-19 01:07:20.891 | INFO     | app.tool.qqmusic_control:_open_qqmusic:187 - 已启动QQ音乐应用程序 🚀

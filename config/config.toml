@@ -1,0 +1,30 @@
+# Global LLM configuration
+[llm]
+model = "qwen-plus"
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+api_key = "sk-............"
+max_tokens = 4096
+temperature = 0.0
+
+# 思考大模型配置
+[llm.thinking]
+api_type = "deepseek"
+model = "deepseek-ai/DeepSeek-R1"
+base_url = "https://api.siliconflow.cn/v1"
+api_key = "sk-............"  # 请替换为您的DeepSeek API密钥
+max_tokens = 8192
+temperature = 0.0
+
+# 执行大模型配置 (默认使用全局配置)
+[llm.execution]
+model = "qwen-plus"
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+api_key = "sk-............"
+max_tokens = 4096
+temperature = 0.0
+
+# Optional configuration for specific LLM models
+[llm.vision]
+model = "qwen-vl-plus"
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+api_key = "sk-............"
