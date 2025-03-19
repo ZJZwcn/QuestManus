@@ -1,7 +1,7 @@
 # 🪼 QuestManus  - 求索之路
 
 <div align="center">
-  <img src="app\GUI\config\icons\Quest Lab.png" alt="Q Logo" width="200"><img src="app\GUI\config\icons\app.png" alt="QuestManus Logo" width="200">
+  <img src="app\GUI\config\icons\app.png" alt="QuestManus Logo" width="200">
 </div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
